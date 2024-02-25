@@ -1,0 +1,50 @@
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+    margin: 2;
+}
+
+li a {
+    text-decoration: none;
+} 
+
+p {
+    font-size: 20px;
+}
+
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.comeco {
+    display: flex;
+}
+
+.lado img{
+    width: 700px;
+    height: 500px;
+}
+
+.esquerdo img{
+    width: 700px;
+    height: 450px;
+}
+.ultimo p{
+    display: block;
+    display: flex;
+    
+}

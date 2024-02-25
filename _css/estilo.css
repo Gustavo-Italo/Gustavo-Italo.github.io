@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+    margin: 2;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+* {
+    color: white;
+}
+
+ p {
+    font-size: 20px;
+}
+
+.tronco {
+    display: flex;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+
+.foto img{
+
+    height: 600px;
+    width: 450px;
+}
+
+.foto_sobre img{
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;  
+}
