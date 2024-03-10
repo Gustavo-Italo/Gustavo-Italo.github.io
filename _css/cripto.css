@@ -29,38 +29,38 @@ p {
     font-size: 20px;
 }
 
-.um {
+.principal__um{
     display: flex;
 }
 
-.a img{
+.principal__um__a img{
     width: 500px;
     height: 350px;
 }
 
-.dois {
+.principal__dois {
     display: flex;
 }
 
-.b img{
+.principal__dois__b img{
     width: 500px;
     height: 400px;
 }
 
-.tres{
+.principal__tres{
     display: flex;
 }
 
-.c img{
+.principal__tres__c img{
   width: 500px;
   height: 400px;
 }
 
-.quatro {
+.principal__quatro {
     display: flex;
 }
 
-.d img{
+.principal__quatro__d img{
     width: 500px;
     height: 400px;
 }

@@ -39,12 +39,12 @@ body {
     height: 500px;
 }
 
-.esquerdo img{
-    width: 700px;
-    height: 450px;
-}
 .ultimo p{
     display: block;
     display: flex;
     
+}
+.ultimo__esquerdo img{
+    width: 700px;
+    height: 450px;
 }
