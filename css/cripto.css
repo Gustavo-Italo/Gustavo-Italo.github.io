@@ -31,6 +31,7 @@ p {
 
 .principal__um{
     display: flex;
+    align-items: center;
 }
 
 .principal__um__a img{
@@ -40,6 +41,7 @@ p {
 
 .principal__dois {
     display: flex;
+    align-items: center;
 }
 
 .principal__dois__b img{
@@ -49,6 +51,7 @@ p {
 
 .principal__tres{
     display: flex;
+    align-items: center;
 }
 
 .principal__tres__c img{
@@ -58,6 +61,7 @@ p {
 
 .principal__quatro {
     display: flex;
+    align-items: center;
 }
 
 .principal__quatro__d img{
