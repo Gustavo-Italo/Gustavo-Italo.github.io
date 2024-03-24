@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 
 ul {
     list-style-type: none;
@@ -18,19 +22,15 @@ li a {
     text-decoration: none;
 } 
 
-p {
-    font-size: 20px;
-}
-
-* {
-    color: white;
-}
 
 body {
     background-color: black;
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 20px;
 }
 
-.comeco {
+.chains {
     display: flex;
 }
 
@@ -39,12 +39,8 @@ body {
     height: 500px;
 }
 
-.ultimo p{
-    display: block;
-    display: flex;
-    
-}
-.ultimo__esquerdo img{
+
+.coins__bits img{
     width: 700px;
     height: 450px;
 }

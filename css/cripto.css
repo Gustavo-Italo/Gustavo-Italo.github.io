@@ -23,10 +23,9 @@ li a {
 
 body {
     background-color: black;
-}
-
-p {
-    font-size: 20px;
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 20px;
 }
 
 .principal__um{
