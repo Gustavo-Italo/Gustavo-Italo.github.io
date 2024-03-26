@@ -2,7 +2,6 @@
     color: white;
 }
 
-
 ul {
     list-style-type: none;
     text-align: center;
@@ -22,25 +21,23 @@ li a {
     text-decoration: none;
 } 
 
-
 body {
     background-color: black;
-    text-align: justify;
     font-size: 18px;
     text-indent: 20px;
 }
 
-.chains {
-    display: flex;
+.blocks__chain {
+    display: flex;    
 }
 
-.lado img{
+.lado img {
     width: 700px;
-    height: 500px;
+    height: 500px;  
 }
-
 
 .coins__bits img{
     width: 700px;
     height: 450px;
+
 }

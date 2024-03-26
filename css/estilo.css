@@ -12,6 +12,7 @@ ul {
 
 li{
     display: inline-block;
+    font-size: 20px;
     padding: 30px;
     margin: 2;
 }
@@ -20,25 +21,22 @@ li a {
     text-decoration: none;
 }
 
-.bit {
+.bit__con {
     display: flex;
 }
 
 body {
     background-color: black;
-    text-align: justify;
     font-size: 18px;
     text-indent: 20px;
 }
 
-.foto img{
+img{
     height: 600px;
     width: 450px;
 }
 
-.inferior__foto img{
+.inferior__foto img {
     height: 500px;
     width: 1000px;
-    margin: 0 auto;
-    display: block;  
 }
