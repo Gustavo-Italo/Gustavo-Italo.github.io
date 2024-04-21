@@ -10,24 +10,34 @@
 </head>
 <body>
 
-    <header class="nav__list">
+  <header>
+    <nav class="content">
+      <div class="list">
         <ul>
-          <li class="link"><a href="index.html">Página Inicial</a></li>
-          <li class="link"><a href="blockchain.html">Blockchain</a></li>
-          <li class="link"><a href="criptomoedas.html">Criptomoedas</a></li>
-        </ul> 
-      </header>
+          <li><a href="index.html">Inicio</a></li>
+            <li><a href="blockchain.html">Blockchain</a></li>
+            <li><a href="criptomoedas.html">Criptomoedas</a></li>
+        </ul>
+      </div>
 
-      <div class="mobile-menu">
-        <i id="burguer" class="material-symbols-outlined" onclick="blockchainMenu()">menu</i>
-            <menu id="itens">
-                <ul>
-                    <li class="link-mobile"><a href="index.html">Página Inicial</a></li>
-                    <li class="link-mobile"><a href="blockchain.html">Blockchain</a></li>
-                    <li class="link-mobile"><a href="criptomoedas.html">Criptomoedas</a></li>
-                </ul>
-            </menu>   
-    </div>
+      <span
+        id="icon-menu"
+        class="material-symbols-outlined"
+        onclick="clickMenu()"
+      >
+        menu
+      </span>
+
+      <div id="mobileMenu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="blockchain.html">Blockchain</a></li>
+            <li><a href="criptomoedas.html">Criptomoedas</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
 
   <main>
     <section class="blocks">  

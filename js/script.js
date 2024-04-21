@@ -1,27 +1,7 @@
-
-
-
 function clickMenu() {
-  
-  if (itens.style.display == 'block') {
-      itens.style.display = 'none';
+  if (mobileMenu.style.display == "none") {
+    mobileMenu.style.display = "block";
   } else {
-    itens.style.display = 'block';
-
+    mobileMenu.style.display = "none";
   }
-      
 }
-
-
-
-function blockchainMenu() {
-  
-  if (itens.blockchain.display == 'block') {
-      itens.blockchain.display = 'none';
-  } else {
-    itens.blockchain.display = 'block';
-
-  }
-      
-}
-
