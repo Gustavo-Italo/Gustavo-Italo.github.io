@@ -2,6 +2,10 @@
   color: white;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     padding: 20px;
@@ -27,7 +31,6 @@ body {
     font-size: 20px;
     text-indent: 20px;
     font-family: arial, sans-serif; 
-    text-align: justify;
 }
 
 h3 {
@@ -88,9 +91,11 @@ h3 {
 }
 
 
-      /*tablet*/
+@media (min-width: 700px) {
 
-@media (min-width: 738px) {
+    .mobile-menu {
+        display: none;
+    }
 
     ul {
         list-style-type: none;
@@ -167,6 +172,21 @@ h3 {
         height: 400px;
         border-radius: 20px;
         object-fit: cover;
+    }
+
+}
+
+
+@media (min-width: 699px) {
+
+    .mobile-menu {
+       display: block;
+       text-align: center;
+       padding: 10px;
+    }
+
+    .nav__list {
+        display: none;
     }
 
 }

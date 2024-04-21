@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <title>Bitcoin</title>
+    <script src="./js/script.js"></script>
 </head>
 <body>
   
-    <nav>
-      <ul class="nav__links">
+    <header class="nav__list">
+      <ul>
         <li class="link"><a href="index.html">Página Inicial</a></li>
         <li class="link"><a href="blockchain.html">Blockchain</a></li>
         <li class="link"><a href="criptomoedas.html">Criptomoedas</a></li>
-      </ul>
-    </nav>
+      </ul>  
+    </header>
+
+
+    <div class="mobile-menu">
+      <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+          <menu id="itens">
+              <ul>
+                  <li class="link-mobile"><a href="index.html">Página Inicial</a></li>
+                  <li class="link-mobile"><a href="blockchain.html">Blockchain</a></li>
+                  <li class="link-mobile"><a href="criptomoedas.html">Criptomoedas</a></li>
+              </ul>
+          </menu>   
+  </div>
     
-  <main>
-    <section class="bit">
+  <main class="bit">
+    <section class="bit__con">
     
       <div>
-        <h2> O que é Bitcoin? </h2>
+        <h1> O que é Bitcoin? </h1>
         <p>O Bitcoin é basicamente um arquivo digital que existe online e funciona como uma moeda alternativa. </p> 
 
         <p>Nisso, ele se diferencia muito de moedas convencionais, como o dólar americano. Ele não é impresso por governos ou bancos tradicionais, mas criado por um processo computacional complexo conhecido como "mining" (mineração).</p>
@@ -50,7 +64,7 @@
 
       </figure>
 
-      <h1> Sobre o Bitcoin </h1>
+      <h2> Sobre o Bitcoin </h2>
         <p>O Bitcoin é uma forma de dinheiro eletrônico peer-to peer (ponto a ponto) que pode ser transferida sem o intermédio de instituições financeiras.</p>
         
         <p>Na prática, isso significa que dois indivíduos, mesmo morando em países diferentes, podem enviar BTC um para o outro sem precisar de um banco ou de uma empresa de remessa internacional.</p>
@@ -95,8 +109,9 @@
           <p>
             “Eu mudei para outras coisas. Isso (projeto do Bitcoin) está em boas mãos com Gavin e todos”. 
           </p>
-      
     </section>
   </main>
+  
+
 </body>
 </html>

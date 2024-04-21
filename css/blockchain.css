@@ -2,6 +2,10 @@
     color: white;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     padding: 20px;
@@ -27,7 +31,6 @@ body {
     font-size: 20px;
     text-indent: 20px;
     font-family: arial, sans-serif; 
-    text-align: justify;
 }
 
 
@@ -48,7 +51,11 @@ img {
     justify-content: center;
 }
 
-@media (min-width: 738px) {
+@media (min-width: 700px) {
+
+    .mobile-menu {
+        display: none;
+    }
 
     ul {
         list-style-type: none;
@@ -87,4 +94,19 @@ img {
          justify-content: center;
      }
     
+}
+
+
+@media (max-width: 699px) {
+
+    .mobile-menu {
+        display: block;
+        text-align: center;
+        padding: 10px;
+     }
+
+     .nav__list {
+        display: none;
+     }
+  
 }

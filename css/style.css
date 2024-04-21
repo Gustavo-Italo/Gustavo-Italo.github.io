@@ -1,5 +1,10 @@
+    
 * {
     color: white;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 ul {
@@ -27,7 +32,6 @@ body {
     font-size: 20px;
     text-indent: 20px;
     font-family: arial, sans-serif; 
-    text-align: justify;
 }
 
 img {
@@ -47,7 +51,12 @@ img {
     justify-content: center;
 }
 
-@media (min-width: 738px) {
+
+@media (min-width: 700px) {
+
+    .mobile-menu {
+        display: none;
+    }
 
     ul {
         list-style-type: none;
@@ -85,7 +94,29 @@ img {
         align-items: center;
         justify-content: center;
     }
+} 
+
+@media (max-width: 699px) {
+
+    .mobile-menu {
+        display: block;
+        padding: 10px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .mobile-menu#burguer {
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
 }
 
-        
+}      
 
