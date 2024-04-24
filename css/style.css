@@ -22,10 +22,6 @@ li a {
     margin: 20px;
 }
   
-span#icon-menu {
-    display: none;
-}
-  
 .mobileMenu {
     display: none;
 }
@@ -68,26 +64,22 @@ img {
         display: grid;
         grid-template-areas: 
         "Página Inicial Blockchain Criptomoedas";
+        grid-template-columns: 3fr 4fr;
         text-align: center;
-        justify-items: start;  
+        justify-items: center;
     }
     
     .logo__imagem > img {
         width: 130px;
         height: 130px;
         object-fit: cover;
-        margin: 0 auto;
         display: block;
+        border-radius: 1.2rem;
     }
 
     .list ul li {
         display: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-  
-    span#icon-menu {
-        display: block;
-        cursor: pointer;
     }
   
     .mobileMenu ul {
@@ -107,7 +99,6 @@ img {
     body {
       text-indent: 10px;
     }
-  
   
   }
 

@@ -21,15 +21,11 @@ li a {
     margin: 20px;
 }
   
-span#icon-menu {
-    display: none;
-}
-  
-#mobileMenu {
+.mobileMenu {
     display: none;
 }
 
-#mobileMenu ul li {
+.mobileMenu ul li {
     display: none;
 }
 
@@ -55,8 +51,7 @@ h3 {
 }
 
 .principal__um__a > img {
-    width: 500px;
-    height: 350px;
+    width: 55%;
     border-radius: 20px;
 }
 
@@ -67,10 +62,9 @@ h3 {
 }
 
 .principal__dois__b > img {
-    width: 500px;
-    height: 400px;
+    width: 55%;
     border-radius: 20px;
-    object-fit: cover;
+    
 }
 
 .principal__tres__c {
@@ -80,10 +74,9 @@ h3 {
 }
 
 .principal__tres__c > img {
-  width: 500px;
-  height: 400px;
-  border-radius: 20px;
-  object-fit: cover;
+    width: 55%;
+    border-radius: 20px;
+  
 }
 
 .principal__quatro__d {
@@ -93,34 +86,41 @@ h3 {
 }
 
 .principal__quatro__d > img {
-    width: 500px;
-    height: 400px;
+    width: 55%;
     border-radius: 20px;
-    object-fit: cover;
+    
 }
 
 /* Estilização do menu mobile */
 
 
 @media screen and (max-width: 700px) {
+
+    
+    .mobileMenu {
+        display: grid;
+        grid-template-areas: 
+        "Página Inicial Blockchain Criptomoedas";
+        grid-template-columns: 3fr 4fr;
+        text-align: center;
+        justify-items: center;
+    }
+    
+    .logo__imagem > img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        display: block;
+        border-radius: 1.2rem;
+    }
   
     .list ul li {
         display: none;
     }
   
-    span#icon-menu {
-        display: block;
-        cursor: pointer;
-    }
-
-    .mobileMenu {
-        display: block;
-    }
-  
     .mobileMenu ul {
-        display: grid;
-        flex-direction: row;
-        justify-content: start;
+        display: block;
+        
     }
   
     .mobileMenu ul li {
@@ -136,6 +136,5 @@ h3 {
     body {
         text-indent: 10px;
       }
-  
   
   }
